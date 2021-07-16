@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07F7F4339B91DA419CD2F41A /* Pods_HDWalletKit_HDWalletKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9CF1786FD900D725E89FE5 /* Pods_HDWalletKit_HDWalletKit_Tests.framework */; };
+		081A483726A20A5B00EAF4D0 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081A483626A20A5A00EAF4D0 /* Package.swift */; };
 		3401AEFA20F797CB006DEF49 /* EthereumAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AEF920F797CB006DEF49 /* EthereumAddress.swift */; };
 		3401AF6E20F908AA006DEF49 /* SecpResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AF6D20F908AA006DEF49 /* SecpResult.swift */; };
 		3411AEE72164278A00AB9476 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3411AEE62164278A00AB9476 /* Coin.swift */; };
@@ -206,6 +207,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		081A483626A20A5A00EAF4D0 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		24463252CD56603F58800D8F /* Pods-HDWalletKit-HDWalletKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDWalletKit-HDWalletKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HDWalletKit-HDWalletKit_Tests/Pods-HDWalletKit-HDWalletKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		29695349E80AB7F880E24B02 /* Pods-HDWalletKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDWalletKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDWalletKit_Tests/Pods-HDWalletKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3401AEF920F797CB006DEF49 /* EthereumAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumAddress.swift; sourceTree = "<group>"; };
@@ -692,6 +694,7 @@
 		349220DC20F64C6600A59A6F = {
 			isa = PBXGroup;
 			children = (
+				081A483626A20A5A00EAF4D0 /* Package.swift */,
 				3492211920F64D9B00A59A6F /* HDWalletKit */,
 				3492214820F64E0300A59A6F /* HDWalletKit_Tests */,
 				349220E620F64C6600A59A6F /* Products */,
@@ -1244,6 +1247,7 @@
 				34C9B1C821E5087900198EAF /* Transaction.swift in Sources */,
 				3492213C20F64D9B00A59A6F /* Mnemonic.swift in Sources */,
 				348C119721D68F2C00295370 /* OP_SPLIT.swift in Sources */,
+				081A483726A20A5B00EAF4D0 /* Package.swift in Sources */,
 				348C119421D68F2C00295370 /* OP_BIN2NUM.swift in Sources */,
 				34D9CC482209CDB900B3A625 /* BitcoinTransactionSignatureSerializer.swift in Sources */,
 				348C11B721D68F2C00295370 /* OP_IF.swift in Sources */,
